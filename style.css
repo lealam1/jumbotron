@@ -1,3 +1,7 @@
+body {
+    background-color: beige;
+}
+
 .jumbotron {
     color:hsl(143, 57%, 69%);
     background-image: url('myself.jpg');
@@ -15,4 +19,27 @@ h1 {
     font-size: medium;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: darkcyan;
+}
+
+p {
+    text-align: center;
+}
+
+th {
+    background-color: rgb(177, 209, 230);
+    color:beige;
+}
+
+td {
+    color:rgb(131, 173, 131)
+}
+
+.dog {
+    width: 250px;
+    height:200px;
+}
+
+img {
+   width: 225px;
+   height: 250px;
 }
