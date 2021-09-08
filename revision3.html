@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Bootstrap JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
+        <!-- Custom styles for this template -->
+        <link rel="stylesheet" type="text/css" href="style.css">
+        
+        <title>Carousel Template for Bootstrap</title>
+  </head>
+    <body>
+        <div class="container">
+            <ul class="nav nav-tabs">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li class="active"><a href="revision1.html">Profile</a></li>
+                <li class="active"><a href="revision3.html">More</a></li>
+            </ul>
+    </div>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img class="first-slide" src="https://attachments.office.net/owa/Lea.Lam%40studentsjmcss.onmicrosoft.com/service.svc/s/GetAttachmentThumbnail?id=AAMkADk1OGQ2MThlLTMwYzAtNDU0Yi05MDE0LWVlZWRkYTZhMWEzMQBGAAAAAADTv4tH3wcpT7GXhIDBa4ROBwBJ5J9nBloDTKfDLJhTn3r8AAAAAAEMAABJ5J9nBloDTKfDLJhTn3r8AAPGO3CtAAABEgAQAA9ipPqX4JhCnHTYGVhV5FI%3D&thumbnailType=2&token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjMwODE3OUNFNUY0QjUyRTc4QjJEQjg5NjZCQUY0RUNDMzcyN0FFRUUiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJNSUY1emw5TFV1ZUxMYmlXYTY5T3pEY25ydTQifQ.eyJvcmlnaW4iOiJodHRwczovL291dGxvb2sub2ZmaWNlLmNvbSIsInVjIjoiZDA1NTcwNTgxNDI4NGVjNDk2ZDBiYjg4NGRkODAyZWUiLCJzaWduaW5fc3RhdGUiOiJbXCJrbXNpXCJdIiwidmVyIjoiRXhjaGFuZ2UuQ2FsbGJhY2suVjEiLCJhcHBjdHhzZW5kZXIiOiJPd2FEb3dubG9hZEBkOTgyZjNkYy04YzI1LTRkNzktYTcyOS1mNmQ0N2Q2MGNmZTUiLCJpc3NyaW5nIjoiV1ciLCJhcHBjdHgiOiJ7XCJtc2V4Y2hwcm90XCI6XCJvd2FcIixcInB1aWRcIjpcIjExNTM5MDY2NjExODY3NDg2NTdcIixcInNjb3BlXCI6XCJPd2FEb3dubG9hZFwiLFwib2lkXCI6XCI3OTZiNDU0MC01MzFlLTRjOGUtODNjNC01OGJhOGExMDZjZjlcIixcInByaW1hcnlzaWRcIjpcIlMtMS01LTIxLTgwMjY2OTU0NC03NDU2NTEwNDEtMzkzODM3MDEzNy0xMjc5NjMwNVwifSIsIm5iZiI6MTYzMTExMTUyMSwiZXhwIjoxNjMxMTEyMTIxLCJpc3MiOiIwMDAwMDAwMi0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDBAZDk4MmYzZGMtOGMyNS00ZDc5LWE3MjktZjZkNDdkNjBjZmU1IiwiYXVkIjoiMDAwMDAwMDItMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwL2F0dGFjaG1lbnRzLm9mZmljZS5uZXRAZDk4MmYzZGMtOGMyNS00ZDc5LWE3MjktZjZkNDdkNjBjZmU1IiwiaGFwcCI6Im93YSJ9.E47_7Lgkrp3X0FjbB_XwGitP6F8EyUmfd-J3-LNoZwUEb2DtmS_IFqG-6wSMU0PcZK2m_RtoXkwdGiAnDyICZY53NuaLDC6aBjKP_TI-N8yDDDhgznqL1oQCfBdHOOMkDkcbhI4KIGcSJ0Fzd3b8g48GaDwwTs2TsRusak2ChLIl0xvBJd8TLIDiNIzbi5M1ollK4P1uSJM3KfZuOF-fYQZbwnh6y7FPZrGeHLUB-vSAq2wlBUpoQR-DzNaq8xGo_aOy9yG7vCAI-e7-7zyXd6r9MpSpfoRKc4n5VD8eELfIk6I-sVdCqARpKoaBGHR5C0Y0Kkfe3ZfRx2ft6h5i9w&X-OWA-CANARY=Mm6aO0n_JEeFFu-Q3WMBqdDF9nbVctkYldhB_69U8MnRO42mU1-dceX7cDjBX0aeBorWx5RhTlY.&owa=outlook.office.com&scriptVer=20210823004.07&animation=true" alt="First slide">
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Ace in the Snow</h1>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img class="second-slide" src="https://attachments.office.net/owa/Lea.Lam%40studentsjmcss.onmicrosoft.com/service.svc/s/GetAttachmentThumbnail?id=AAMkADk1OGQ2MThlLTMwYzAtNDU0Yi05MDE0LWVlZWRkYTZhMWEzMQBGAAAAAADTv4tH3wcpT7GXhIDBa4ROBwBJ5J9nBloDTKfDLJhTn3r8AAAAAAEMAABJ5J9nBloDTKfDLJhTn3r8AAPGO3CtAAABEgAQAKPVyeR3oV1DnWAdf6jNHRQ%3D&thumbnailType=2&token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjMwODE3OUNFNUY0QjUyRTc4QjJEQjg5NjZCQUY0RUNDMzcyN0FFRUUiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJNSUY1emw5TFV1ZUxMYmlXYTY5T3pEY25ydTQifQ.eyJvcmlnaW4iOiJodHRwczovL291dGxvb2sub2ZmaWNlLmNvbSIsInVjIjoiZDA1NTcwNTgxNDI4NGVjNDk2ZDBiYjg4NGRkODAyZWUiLCJzaWduaW5fc3RhdGUiOiJbXCJrbXNpXCJdIiwidmVyIjoiRXhjaGFuZ2UuQ2FsbGJhY2suVjEiLCJhcHBjdHhzZW5kZXIiOiJPd2FEb3dubG9hZEBkOTgyZjNkYy04YzI1LTRkNzktYTcyOS1mNmQ0N2Q2MGNmZTUiLCJpc3NyaW5nIjoiV1ciLCJhcHBjdHgiOiJ7XCJtc2V4Y2hwcm90XCI6XCJvd2FcIixcInB1aWRcIjpcIjExNTM5MDY2NjExODY3NDg2NTdcIixcInNjb3BlXCI6XCJPd2FEb3dubG9hZFwiLFwib2lkXCI6XCI3OTZiNDU0MC01MzFlLTRjOGUtODNjNC01OGJhOGExMDZjZjlcIixcInByaW1hcnlzaWRcIjpcIlMtMS01LTIxLTgwMjY2OTU0NC03NDU2NTEwNDEtMzkzODM3MDEzNy0xMjc5NjMwNVwifSIsIm5iZiI6MTYzMTExMTUyMSwiZXhwIjoxNjMxMTEyMTIxLCJpc3MiOiIwMDAwMDAwMi0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDBAZDk4MmYzZGMtOGMyNS00ZDc5LWE3MjktZjZkNDdkNjBjZmU1IiwiYXVkIjoiMDAwMDAwMDItMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwL2F0dGFjaG1lbnRzLm9mZmljZS5uZXRAZDk4MmYzZGMtOGMyNS00ZDc5LWE3MjktZjZkNDdkNjBjZmU1IiwiaGFwcCI6Im93YSJ9.E47_7Lgkrp3X0FjbB_XwGitP6F8EyUmfd-J3-LNoZwUEb2DtmS_IFqG-6wSMU0PcZK2m_RtoXkwdGiAnDyICZY53NuaLDC6aBjKP_TI-N8yDDDhgznqL1oQCfBdHOOMkDkcbhI4KIGcSJ0Fzd3b8g48GaDwwTs2TsRusak2ChLIl0xvBJd8TLIDiNIzbi5M1ollK4P1uSJM3KfZuOF-fYQZbwnh6y7FPZrGeHLUB-vSAq2wlBUpoQR-DzNaq8xGo_aOy9yG7vCAI-e7-7zyXd6r9MpSpfoRKc4n5VD8eELfIk6I-sVdCqARpKoaBGHR5C0Y0Kkfe3ZfRx2ft6h5i9w&X-OWA-CANARY=Mm6aO0n_JEeFFu-Q3WMBqdDF9nbVctkYldhB_69U8MnRO42mU1-dceX7cDjBX0aeBorWx5RhTlY.&owa=outlook.office.com&scriptVer=20210823004.07&animation=true" alt="Second slide">
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Sand Turtle</h1>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img class="third-slide" src="https://attachments.office.net/owa/Lea.Lam%40studentsjmcss.onmicrosoft.com/service.svc/s/GetAttachmentThumbnail?id=AAMkADk1OGQ2MThlLTMwYzAtNDU0Yi05MDE0LWVlZWRkYTZhMWEzMQBGAAAAAADTv4tH3wcpT7GXhIDBa4ROBwBJ5J9nBloDTKfDLJhTn3r8AAAAAAEMAABJ5J9nBloDTKfDLJhTn3r8AAPGO3CtAAABEgAQAK4dEkMu5KVDoVepDAlePgo%3D&thumbnailType=2&token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjMwODE3OUNFNUY0QjUyRTc4QjJEQjg5NjZCQUY0RUNDMzcyN0FFRUUiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJNSUY1emw5TFV1ZUxMYmlXYTY5T3pEY25ydTQifQ.eyJvcmlnaW4iOiJodHRwczovL291dGxvb2sub2ZmaWNlLmNvbSIsInVjIjoiMGFlZWU5MjU2YTA4NDBkOGFmNTdlNDVjMGNhNjljZjQiLCJzaWduaW5fc3RhdGUiOiJbXCJrbXNpXCJdIiwidmVyIjoiRXhjaGFuZ2UuQ2FsbGJhY2suVjEiLCJhcHBjdHhzZW5kZXIiOiJPd2FEb3dubG9hZEBkOTgyZjNkYy04YzI1LTRkNzktYTcyOS1mNmQ0N2Q2MGNmZTUiLCJpc3NyaW5nIjoiV1ciLCJhcHBjdHgiOiJ7XCJtc2V4Y2hwcm90XCI6XCJvd2FcIixcInB1aWRcIjpcIjExNTM5MDY2NjExODY3NDg2NTdcIixcInNjb3BlXCI6XCJPd2FEb3dubG9hZFwiLFwib2lkXCI6XCI3OTZiNDU0MC01MzFlLTRjOGUtODNjNC01OGJhOGExMDZjZjlcIixcInByaW1hcnlzaWRcIjpcIlMtMS01LTIxLTgwMjY2OTU0NC03NDU2NTEwNDEtMzkzODM3MDEzNy0xMjc5NjMwNVwifSIsIm5iZiI6MTYzMTExMzIyOSwiZXhwIjoxNjMxMTEzODI5LCJpc3MiOiIwMDAwMDAwMi0wMDAwLTBmZjEtY2UwMC0wMDAwMDAwMDAwMDBAZDk4MmYzZGMtOGMyNS00ZDc5LWE3MjktZjZkNDdkNjBjZmU1IiwiYXVkIjoiMDAwMDAwMDItMDAwMC0wZmYxLWNlMDAtMDAwMDAwMDAwMDAwL2F0dGFjaG1lbnRzLm9mZmljZS5uZXRAZDk4MmYzZGMtOGMyNS00ZDc5LWE3MjktZjZkNDdkNjBjZmU1IiwiaGFwcCI6Im93YSJ9.flsZMXxaxE8HJwHLrE0d0YLNkmMYynaNMqdmrhiG-QBBaljb4pvfA2DBdhlet5Wp-GvXhKdr9GqPOrjPpvl-j67LRXkq_CfLkezexER3QMYu4EgwnpSZKRWHo1_Afnm4a3msxfdIC1IjDt3wD9sIJET2MqoyRHNY3LEG2r3WbDkjLR2xkf3B9kBAHqlR1En1G2h4ow9JS4flCrFAhXZi3MAo7VWtnGeHneN0hZNYf2pVGh_ttBb8fXJeWPD87kudvjPUaDPXuusVHc9h6efYyJAUgIXw13HnbCQ7yNLDNy2z3J-ZdBvcOnYnwHaO_Za_a9-ql8LMiqY1cEjMagO1Pw&X-OWA-CANARY=mPwgAeqvPEKbg1EWizcKjbBUm2vZctkYqgQpFLjk3UA_iQyGNpqmrjK2gRaAVT_XvLLRLlFMVKU.&owa=outlook.office.com&scriptVer=20210829002.04&animation=true" alt="Third slide">
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Bambi the Bamboo</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+</body>
